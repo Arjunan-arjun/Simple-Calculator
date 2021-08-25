@@ -1,0 +1,74 @@
+#container
+{
+    width:80%;
+    background-color: black;
+    margin: 0px auto;
+    height:100%;
+    padding:10px;
+}
+h1
+{
+    text-align: center;
+    color: blueviolet;
+    background-color: burlywood;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 10px;
+}
+#container1
+{
+    width:40%;
+    background-color: brown;
+    margin: 0px auto;
+    height:80%;
+}
+#result
+{
+    width:100%;
+    background-color:lawngreen;
+    height:20%;
+}
+#row
+{
+display:flex;
+justify-content: space-between;
+padding:10px
+}
+#row:hover
+{
+    background-color:darksalmon;
+}
+button
+{
+width:60px;
+height: 60px;
+border-radius: 50%;
+color:black;
+background-color: darkorchid;
+border:none;
+font-size: larger;
+}
+.operator
+{
+    background-color: yellow;
+}
+button:hover
+{
+    color:white;
+    background-color: red;
+}
+.operators
+{
+    width:45%;
+    background-color:lightskyblue;
+    border-radius: 25%;
+}
+#result
+{
+    text-align: center;
+    font-size: x-large;
+}
+#result:hover
+{
+    background-color: magenta;
+}
